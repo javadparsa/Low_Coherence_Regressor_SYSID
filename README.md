@@ -1,13 +1,5 @@
 # Low_Coherence_Regressor_SYSID
-# Project Description
-In this project, low coherence regressor design in sparse system identification is implemented and evaluated in comparison with state-of-the art sparse estimation algorithms.
-# Software Engineering Module 
-* **WASP Graduate School**
-* **Software Engineering and Cloud Computing Course 2021**
 
-## contributors
-  * *Firooz Shahriari-Mehr*
-  * *Javad Parsa*
   
 ## Project Description
 **Low coherence regressor design:** In this project, low coherence regressor design in sparse system identification is implemented and evaluated in comparison with state-of-the art sparse estimation algorithms.
