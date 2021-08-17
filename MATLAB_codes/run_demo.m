@@ -25,7 +25,7 @@
 clc
 clear all
 close all
-numou = 5;   % number of experiments
+numou = 6;   % number of experiments
 snrm = [15 20 25 30 40 50 60 80 100];  % different levels of SNR (noise)
 
 %% Initial zeros vectors to report the POD, NRMSE and computational time.
@@ -132,8 +132,8 @@ opts.No = 300;    % number of iterations for coordinate_transformation algorithm
 optsr.lambda = 0.0008;
 optsr.lambdad = 0.004;
 optsr.lambdaprim = 0.0001;
-optsr.inite = 30;
-optsr.num = 30;
+optsr.inite = 25;
+optsr.num = 25;
 optsr.ns = ns;
 for out = 1:numou
 [phi,s_true] = generate_highcorr_reg(m,n, ns); % generating sparse random parameter vector and random regressor with high mutual coherence
